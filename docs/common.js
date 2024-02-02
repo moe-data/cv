@@ -46,16 +46,18 @@ const projects = [
 const works = [
   {
     cls: 'Huawei',
-    title: 'Open Harmony Developer',
+    title: 'HarmonyOS Developer',
     time: '2023/4 ~ &emsp;&emsp;&emsp;',
     affiliated: 'https://pic1.zhimg.com/v2-e4d64b5e553899079c856727e6f12eae_xll.jpg',
     description: `
-                            <li>Responsible for Open Harmony Next App design and development</li>
-                            <li>Research software technology strategies and plans for multiple products/platforms across product lines/product lines, 
-                            lead the software development direction in the industry, and make plans for software technology development challenges in advance.</li>
-                            <li>Take the lead in implementing the architecture of cross-product line/product line main product/platform software, 
-                            and lead the implementation of core code. 
-                            Conduct special research on key technologies such as algorithms and databases to resolve corporate-level technical difficulties.</li>
+                            <li>Responsible for HarmonyOS NEXT App design and development</li>
+                            <li>Complete all phases in the product lifecycle from customer requirements to software product definition, 
+                            architecture design, development implementation (module design, code writing and testing), 
+                            and go-live operation and maintenance.</li>
+                            <li>Creatively solve technical difficulties in product implementation and apply cutting-edge technologies to improve the core competitiveness of products, 
+                            such as distributed systems, performance optimization, reliability, and databases.</li>
+                            <li>Periodically refactor code to meet clean code requirements. 
+                            modularize, componentize and structuralize the repository to make the code structure clearer and easier to understand.</li>
                             <li>Lead the research and practice of software engineering methods across product lines/product lines, 
                             and propose innovative engineering methods.
                             </li>`,
@@ -139,7 +141,7 @@ $(document).ready(() => {
   let ifrs = ['personal', 'open', 'education']
   let ifrHeights = [490, 1560, 730]
   ifrs.forEach((ifr, i) => {
-    $('iframe.' + ifr).attr({
+    $('div.' + ifr).attr({
       align: 'center',
       width: '100%',
       scrolling: 'no',
@@ -148,74 +150,73 @@ $(document).ready(() => {
       marginwidth: '0',
       marginheight: '0',
     })
-    $('iframe.' + ifr).attr('src', ifr + '.html')
-    $('iframe.' + ifr).attr('height', ifrHeights[i])
+    $('div.' + ifr).attr('height', ifrHeights[i])
   })
   projects.forEach((j) => {
     $('tr.project.' + j.cls).html(`
-<td class="p15">
-  <table cellspacing="0" cellpadding="0" border="0">
+<td class='p15'>
+  <table cellspacing='0' cellpadding='0' border='0'>
     <tbody>
       <tr>
-        <td class="phd tb1" colspan="3"><strong>` +
+        <td class='phd tb1' colspan='3'><strong>` +
       j.title +
       `</strong></td>
-        <td valign="top" class="time">` +
+        <td valign='top' class='time'>` +
       j.time +
       `</td></tr>` +
       (j.affiliated
         ? `<tr>
-          <td valign="top" class="tb keys"> Affiliated:</td>
-          <td valign="top" colspan="3" class="txt1">` +
+          <td valign='top' class='tb keys'> Affiliated:</td>
+          <td valign='top' colspan='3' class='txt1'>` +
         j.affiliated +
         `</td></tr>`
         : '') +
       `<tr>
-        <td valign="top" class="tb1 keys">Description:</td>
-        <td valign="top" colspan="3" class="txt1">` +
+        <td valign='top' class='tb1 keys'>Description:</td>
+        <td valign='top' colspan='3' class='txt1'>` +
       j.description +
       `</td>
       </tr>
     </tbody>
   </table>
-</td>`
+</td>`,
     )
   })
   works.forEach((j) => {
     $('tr.work.' + j.cls).html(`
         <tr>
-          <td class="p15 pd_20">
-            <table cellspacing="0" cellpadding="0" border="0">
+          <td class='p15 pd_20'>
+            <table cellspacing='0' cellpadding='0' border='0'>
               <tbody>
                 <tr>
-                  <td width="52" height="52" rowspan="2" class="companyLogo">
+                  <td width='52' height='52' rowspan='2' class='companyLogo'>
                     <p>
                       <img
-                        src="` + j.affiliated + `"
-                        alt="" width="48" height="48" /><i></i>
+                        src='` + j.affiliated + `'
+                        alt='' width='48' height='48' /><i></i>
                     </p>
                   </td>
 
-                  <td class="phd tb1 p_12"><strong>` + j.cls + `</strong><span class="gray">&nbsp;</span></td>
-                  <td valign="top" class="time">` + j.time + `</td>
+                  <td class='phd tb1 p_12'><strong>` + j.cls + `</strong><span class='gray'>&nbsp;</span></td>
+                  <td valign='top' class='time'>` + j.time + `</td>
                 </tr>
                 <tr>
-                  <td valign="top" class="tb1 p_12" colspan="3">
+                  <td valign='top' class='tb1 p_12' colspan='3'>
                     <span>` + j.title + `</span>
                   </td>
                 </tr>
                 <tr>
-                  <td class="h_16" colspan="3"></td>
+                  <td class='h_16' colspan='3'></td>
                 </tr>
                 <tr>
-                  <td class="tb1" colspan="3">
-                    <table cellspacing="0" cellpadding="0" border="0">
+                  <td class='tb1' colspan='3'>
+                    <table cellspacing='0' cellpadding='0' border='0'>
                       <tbody>
                         <tr>
-                          <td valign="top" class="keys">Description:</td>
-                          <td valign="top" class="txt1">
+                          <td valign='top' class='keys'>Description:</td>
+                          <td valign='top' class='txt1'><ul>
                           ` + j.description + `
-                          </td>
+                          </ul></td>
                         </tr>
                       </tbody>
                     </table>

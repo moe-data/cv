@@ -1,28 +1,29 @@
-<!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="./style.css" />
-<table cellspacing="0" cellpadding="0" border="0" class="box1 column box">
+$(document).ready(() => {
+  $('div.open').html(`
+<link rel='stylesheet' type='text/css' href='style.css' />
+<table cellspacing='0' cellpadding='0' border='0' class='box1 column box'>
   <tbody>
     <tr>
-      <td class="plate1">Personal Open Source Projects</td>
+      <td class='plate1'>Personal Open Source Projects</td>
     </tr>
     <tr>
-      <td class="tba">
-        <table cellspacing="0" cellpadding="0" border="0">
+      <td class='tba'>
+        <table cellspacing='0' cellpadding='0' border='0'>
           <tbody>
             <tr>
-              <td class="phd tb1"><strong>moe-data.github.io</strong></td>
-              <td class="phd tb1"><a target="_blank" href="https://moe-data.github.io">https://moe-data.github.io</a>
+              <td class='phd tb1'><strong>moe-data.github.io</strong></td>
+              <td class='phd tb1'><a target='_blank' href='https://moe-data.github.io'>https://moe-data.github.io</a>
               </td>
-              <td valign="top" class="time">long term</td>
+              <td valign='top' class='time'>long term</td>
             </tr>
             <tr>
-              <td class="tb1" colspan="3">
-                <table cellspacing="0" cellpadding="0" border="0">
+              <td class='tb1' colspan='3'>
+                <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
-                    <tr colspan="5"></tr>
+                    <tr colspan='5'></tr>
                     <tr>
-                      <td valign="top" class="keys">Description:</td>
-                      <td valign="top" class="txt1">
+                      <td valign='top' class='keys'>Description:</td>
+                      <td valign='top' class='txt1'>
                         Github open source project. A Web page game data analyzer.<br />
                         multi-equipment development querying and unpacking data viewing is the main function of
                         this website.<br />
@@ -35,56 +36,56 @@
                       </td>
                     </tr>
                     <tr>
-                      <td valign="top" class="keys">lang/frame:</td>
-                      <td valign="top" class="txt1">HTML5, MySQL, MongoDB, javascript, jQuery, echarts.</td>
+                      <td valign='top' class='keys'>lang/frame:</td>
+                      <td valign='top' class='txt1'>HTML5, MySQL, MongoDB, javascript, jQuery, echarts.</td>
                     </tr>
                   </tbody>
                 </table>
               </td>
             </tr>
             <tr>
-              <td class="p15 phd tb1"><strong>autogolang.github.io</strong></td>
-              <td class="phd tb1">
-                <a target="_blank"
-                  href="https://autogolang.github.io/graphql.html">https://autogolang.github.io/graphql.html</a>
+              <td class='p15 phd tb1'><strong>autogolang.github.io</strong></td>
+              <td class='phd tb1'>
+                <a target='_blank'
+                  href='https://autogolang.github.io/graphql.html'>https://autogolang.github.io/graphql.html</a>
               </td>
-              <td valign="top" class="time">long term</td>
+              <td valign='top' class='time'>long term</td>
             </tr>
             <tr>
-              <td class="tb1" colspan="3">
-                <table cellspacing="0" cellpadding="0" border="0">
+              <td class='tb1' colspan='3'>
+                <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
                     <tr>
-                      <td valign="top" class="keys">Description:</td>
-                      <td valign="top" class="txt1">
+                      <td valign='top' class='keys'>Description:</td>
+                      <td valign='top' class='txt1'>
                         This tool instantly converts GraphQL Schema into a Go type definition. Paste a GraphQL
                         Schema structure on the left and the equivalent Go type will be generated to the right,
                         which you can paste into your program.
                       </td>
                     </tr>
                     <tr>
-                      <td valign="top" class="keys">language:</td>
-                      <td valign="top" class="txt1">HTML5</td>
+                      <td valign='top' class='keys'>language:</td>
+                      <td valign='top' class='txt1'>HTML5</td>
                     </tr>
                   </tbody>
                 </table>
               </td>
             </tr>
             <tr>
-              <td class="p15 phd tb1"><strong>mission chain</strong></td>
-              <td class="phd tb1">
-                <a target="_blank" href="https://github.com/conbanwa/mission-chain">
+              <td class='p15 phd tb1'><strong>mission chain</strong></td>
+              <td class='phd tb1'>
+                <a target='_blank' href='https://github.com/conbanwa/mission-chain'>
                   https://github.com/conbanwa/mission-chain</a>
               </td>
-              <td valign="top" class="time">long term</td>
+              <td valign='top' class='time'>long term</td>
             </tr>
             <tr>
-              <td class="tb1" colspan="3">
-                <table cellspacing="0" cellpadding="0" border="0">
+              <td class='tb1' colspan='3'>
+                <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
                     <tr>
-                      <td valign="top" class="keys">Description:</td>
-                      <td valign="top" class="txt1">
+                      <td valign='top' class='keys'>Description:</td>
+                      <td valign='top' class='txt1'>
                         Manage and view real-time progress (visual display of task chain, real-time display of
                         incomplete/in-progress/completed tasks)<br />
                         Intelligently judge the completion status of related tasks based on the completion
@@ -93,63 +94,63 @@
                       </td>
                     </tr>
                     <tr>
-                      <td valign="top" class="keys">lang/frame:</td>
-                      <td valign="top" class="txt1">HTML5, MySQL, MongoDB, javascript, jQuery, echarts.</td>
+                      <td valign='top' class='keys'>lang/frame:</td>
+                      <td valign='top' class='txt1'>HTML5, MySQL, MongoDB, javascript, jQuery, echarts.</td>
                     </tr>
                   </tbody>
                 </table>
               </td>
             </tr>
             <tr>
-              <td class="p15 phd tb1"><strong>string highlight</strong></td>
-              <td class="phd tb1">
-                <a target="_blank" href="https://github.com/conbanwa/highlight">
+              <td class='p15 phd tb1'><strong>string highlight</strong></td>
+              <td class='phd tb1'>
+                <a target='_blank' href='https://github.com/conbanwa/highlight'>
                   https://github.com/conbanwa/highlight</a>
               </td>
-              <td valign="top" class="time">long term</td>
+              <td valign='top' class='time'>long term</td>
             </tr>
             <tr>
-              <td class="tb1" colspan="3">
-                <table cellspacing="0" cellpadding="0" border="0">
+              <td class='tb1' colspan='3'>
+                <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
                     <tr>
-                      <td valign="top" class="keys">Description:</td>
-                      <td valign="top" class="txt1">
+                      <td valign='top' class='keys'>Description:</td>
+                      <td valign='top' class='txt1'>
                         string highlight: a simple, extensive string colorizer for Go.
                       </td>
                     </tr>
 
                     <tr>
-                      <td valign="top" class="keys">language:</td>
-                      <td valign="top" class="txt1">Go</td>
+                      <td valign='top' class='keys'>language:</td>
+                      <td valign='top' class='txt1'>Go</td>
                     </tr>
                   </tbody>
                 </table>
               </td>
             </tr>
             <tr>
-              <td class="p15 phd tb1"><strong>CEX triangular arbitrage</strong></td>
-              <td class="phd tb1">
-                <a target="_blank" href="https://github.com/conbanwa/triangle">
+              <td class='p15 phd tb1'><strong>CEX triangular arbitrage</strong></td>
+              <td class='phd tb1'>
+                <a target='_blank' href='https://github.com/conbanwa/triangle'>
                   https://github.com/conbanwa/triangle</a>
               </td>
-              <td valign="top" class="time">2017/9 ~ 2018/5</td>
+              <td valign='top' class='time'>2017/9 ~ 2018/5</td>
             </tr>
             <tr>
-              <td class="tb1" colspan="3">
-                <table cellspacing="0" cellpadding="0" border="0">
+              <td class='tb1' colspan='3'>
+                <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
                     <tr>
-                      <td valign="top" class="keys">Description:</td>
-                      <td valign="top" class="txt1">
+                      <td valign='top' class='keys'>Description:</td>
+                      <td valign='top' class='txt1'>
                         Quantitative trading<br />This project uses Go to achieve high concurrency and high
                         frequency quantitative trading, supports various cryptocurrency exchange platforms.
                         triangular arbitrage is the trading strategy.
                       </td>
                     </tr>
                     <tr>
-                      <td valign="top" class="keys">language:</td>
-                      <td valign="top" class="txt1">Go</td>
+                      <td valign='top' class='keys'>language:</td>
+                      <td valign='top' class='txt1'>Go</td>
                     </tr>
                   </tbody>
                 </table>
@@ -161,37 +162,37 @@
     </tr>
     <tr>
       <td>
-        <table cellspacing="0" cellpadding="0" border="0" class="box box1 column">
+        <table cellspacing='0' cellpadding='0' border='0' class='box box1 column'>
           <tbody>
             <tr>
-              <td class="plate1">Team Open Source Projects</td>
+              <td class='plate1'>Team Open Source Projects</td>
               <br /><br />
             </tr>
             <tr>
-              <td class="tba">
-                <table cellspacing="0" cellpadding="0" border="0">
+              <td class='tba'>
+                <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
                     <tr>
-                      <td class="p15 phd tb1">
+                      <td class='p15 phd tb1'>
                         <strong>
-                          <a target="_blank"
-                            href="https://www.intel.com/content/www/us/en/developer/topic-technology/open/celadon/overview.html">
+                          <a target='_blank'
+                            href='https://www.intel.com/content/www/us/en/developer/topic-technology/open/celadon/overview.html'>
                             Celadon</a>(Android service)</strong>
                       </td>
-                      <td class="phd tb1">
-                        <a target="_blank"
-                          href="https://www.intel.com/content/www/us/en/developer/topic-technology/open/celadon/overview.html">
+                      <td class='phd tb1'>
+                        <a target='_blank'
+                          href='https://www.intel.com/content/www/us/en/developer/topic-technology/open/celadon/overview.html'>
                           Celadon</a>
                       </td>
-                      <td valign="top" class="time">2021/12 ~ 2022/5</td>
+                      <td valign='top' class='time'>2021/12 ~ 2022/5</td>
                     </tr>
                     <tr>
-                      <td class="tb1" colspan="3">
-                        <table cellspacing="0" cellpadding="0" border="0">
+                      <td class='tb1' colspan='3'>
+                        <table cellspacing='0' cellpadding='0' border='0'>
                           <tbody>
                             <tr>
-                              <td valign="top" class="keys">Description:</td>
-                              <td valign="top" class="txt1">
+                              <td valign='top' class='keys'>Description:</td>
+                              <td valign='top' class='txt1'>
                                 Responsible in the coordinator sysmtem of the Android container and the user data
                                 management. <br />
                                 Celadon, Intel's open source Android distribution, provides cloud Android mirror
@@ -205,20 +206,20 @@
                       </td>
                     </tr>
                     <tr>
-                      <td class="p15 phd tb1"><strong>gin-vue-admin</strong></td>
-                      <td class="phd tb1">
-                        <a target="_blank" href="https://github.com/flipped-aurora/gin-vue-admin">
+                      <td class='p15 phd tb1'><strong>gin-vue-admin</strong></td>
+                      <td class='phd tb1'>
+                        <a target='_blank' href='https://github.com/flipped-aurora/gin-vue-admin'>
                           https://github.com/flipped-aurora/gin-vue-admin</a>
                       </td>
-                      <td valign="top" class="time">2022/12 ~ 2023/4</td>
+                      <td valign='top' class='time'>2022/12 ~ 2023/4</td>
                     </tr>
                     <tr>
-                      <td class="tb1" colspan="3">
-                        <table cellspacing="0" cellpadding="0" border="0">
+                      <td class='tb1' colspan='3'>
+                        <table cellspacing='0' cellpadding='0' border='0'>
                           <tbody>
                             <tr>
-                              <td valign="top" class="keys">Description:</td>
-                              <td valign="top" class="txt1">
+                              <td valign='top' class='keys'>Description:</td>
+                              <td valign='top' class='txt1'>
                                 Gin-vue-admin is a backstage management system based on vue and gin, which separates the
                                 front and rear of the full stack.
                               </td>
@@ -228,28 +229,28 @@
                       </td>
                     </tr>
                     <tr>
-                      <td class="p15 phd tb1"><strong>Goex</strong></td>
-                      <td class="phd tb1">
-                        <a target="_blank" href="https://github.com/nntaoli-project/goex">
+                      <td class='p15 phd tb1'><strong>Goex</strong></td>
+                      <td class='phd tb1'>
+                        <a target='_blank' href='https://github.com/nntaoli-project/goex'>
                           https://github.com/nntaoli-project/goex</a>
                       </td>
-                      <td valign="top" class="time">2017/9 ~ 2018/5</td>
+                      <td valign='top' class='time'>2017/9 ~ 2018/5</td>
                     </tr>
                     <tr>
-                      <td class="tb1" colspan="3">
-                        <table cellspacing="0" cellpadding="0" border="0">
+                      <td class='tb1' colspan='3'>
+                        <table cellspacing='0' cellpadding='0' border='0'>
                           <tbody>
                             <tr>
-                              <td valign="top" class="keys">Description:</td>
-                              <td valign="top" class="txt1">
+                              <td valign='top' class='keys'>Description:</td>
+                              <td valign='top' class='txt1'>
                                 Quantitative trading<br />This project uses Go to achieve high concurrency and high
                                 frequency quantitative trading, supports various crypto-currency exchange platforms.
                                 triangular arbitrage is the trading strategy.
                               </td>
                             </tr>
                             <tr>
-                              <td valign="top" class="keys">language:</td>
-                              <td valign="top" class="txt1">Go</td>
+                              <td valign='top' class='keys'>language:</td>
+                              <td valign='top' class='txt1'>Go</td>
                             </tr>
                           </tbody>
                         </table>
@@ -265,3 +266,5 @@
     </tr>
   </tbody>
 </table>
+`)
+})
