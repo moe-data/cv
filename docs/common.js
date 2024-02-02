@@ -1,9 +1,18 @@
 'use strict'
 const projects = [
   {
+    cls: 'media',
+    title: 'Media library for HarmonyOS NEXT',
+    time: '2023/5 ~ &emsp;&emsp;&emsp;',
+    affiliated: 'Huawei',
+    description: `
+    Participate in the develop of Media library for HarmonyOS NEXT.<br />
+    This content is temporary confidential<br />`,
+  },
+  {
     cls: 'server',
     title: 'Decentralized derivatives exchange server',
-    time: '2022/8 ~ 2022/11',
+    time: '2022/8 ~ 2023/1',
     affiliated: 'Bybit',
     description: `
     A decentralized and non-custodial derivatives protocol that facilitates the
