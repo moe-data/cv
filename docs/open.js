@@ -4,7 +4,7 @@ $(document).ready(() => {
 <table cellspacing='0' cellpadding='0' border='0' class='box1 column box'>
   <tbody>
     <tr>
-      <td class='plate1'>Personal Open Source Projects</td>
+      <td class='plate1'>Open Source Projects (by myself)</td>
     </tr>
     <tr>
       <td class='tba'>
@@ -165,13 +165,36 @@ $(document).ready(() => {
         <table cellspacing='0' cellpadding='0' border='0' class='box box1 column'>
           <tbody>
             <tr>
-              <td class='plate1'>Team Open Source Projects</td>
+              <td class='plate1'>Open Source Projects (by team)</td>
               <br /><br />
             </tr>
             <tr>
               <td class='tba'>
                 <table cellspacing='0' cellpadding='0' border='0'>
                   <tbody>
+                    <tr>
+                      <td class='p15 phd tb1'><strong>gin-vue-admin</strong></td>
+                      <td class='phd tb1'>
+                        <a target='_blank' href='https://github.com/flipped-aurora/gin-vue-admin'>
+                          https://github.com/flipped-aurora/gin-vue-admin</a>
+                      </td>
+                      <td valign='top' class='time'>2022/12 ~ 2023/4</td>
+                    </tr>
+                    <tr>
+                      <td class='tb1' colspan='3'>
+                        <table cellspacing='0' cellpadding='0' border='0'>
+                          <tbody>
+                            <tr>
+                              <td valign='top' class='keys'>Description:</td>
+                              <td valign='top' class='txt1'>
+                                Gin-vue-admin is a backstage management system based on vue and gin, which separates the
+                                front and rear of the full stack.
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
                     <tr>
                       <td class='p15 phd tb1'>
                         <strong>
@@ -199,29 +222,6 @@ $(document).ready(() => {
                                 functionality for x86 devices - both from backend and frontend perspectives. Celadon
                                 modifies the Android stack by incorporating critical containerization technologies to
                                 create Celadon in Container.
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class='p15 phd tb1'><strong>gin-vue-admin</strong></td>
-                      <td class='phd tb1'>
-                        <a target='_blank' href='https://github.com/flipped-aurora/gin-vue-admin'>
-                          https://github.com/flipped-aurora/gin-vue-admin</a>
-                      </td>
-                      <td valign='top' class='time'>2022/12 ~ 2023/4</td>
-                    </tr>
-                    <tr>
-                      <td class='tb1' colspan='3'>
-                        <table cellspacing='0' cellpadding='0' border='0'>
-                          <tbody>
-                            <tr>
-                              <td valign='top' class='keys'>Description:</td>
-                              <td valign='top' class='txt1'>
-                                Gin-vue-admin is a backstage management system based on vue and gin, which separates the
-                                front and rear of the full stack.
                               </td>
                             </tr>
                           </tbody>
